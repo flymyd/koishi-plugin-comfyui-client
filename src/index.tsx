@@ -1,6 +1,5 @@
 import { Context, Schema } from 'koishi'
 import { ComfyUINode } from './ComfyUINode';
-import fs from 'fs';
 import OpenAI from "openai";
 
 export const name = 'comfyui-client'
